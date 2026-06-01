@@ -96,9 +96,10 @@ p {
   margin: 0;
   font-size: 18px;
 }
-#mission,#welcome,#about, #education{
+#mission,#welcome,#about, #education, #contact{
   margin-top: 30px;
 }
+
 /* education class configuration*/
 #education{
   padding-left: 10px;
@@ -141,6 +142,7 @@ p {
   text-align: left;
   margin-bottom: 60px;
 }
+
 #about p{
   margin-top: 20px;
 }
@@ -150,6 +152,70 @@ p {
 .portrait{
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+/* Panel configuration */
+main {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.panel-hide{
+  width: 30%;
+}
+
+/* Panel styling */
+.panel {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 40%;
+}
+
+.panel h2 {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.panel p {
+  color: #08060d;
+  font-size: 0.95em;
+}
+
+/* Contact form configuration */
+form {
+  background: #fff;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #08060d;
+}
+input, textarea, button {
+  width: 80%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: #218838;
 }
 
 code,

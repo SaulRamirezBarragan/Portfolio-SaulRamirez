@@ -8,7 +8,7 @@ Week2 Lab1
 //Education Page
 export default function Education() {
     return (
-        <div>
+        <>
             <section id = "education">
                 {/* Backgroung */}
                 <h1>Educational Background</h1>
@@ -105,6 +105,6 @@ export default function Education() {
                 </div>
 
             </section>
-        </div>
+        </>
     );
 }
