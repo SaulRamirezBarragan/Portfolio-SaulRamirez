@@ -1,17 +1,27 @@
+/* 
+author: Saul Ramirez Barragan
+course: COMP229 - Web Application Development
+Date: June 02
+Week2 Lab1
+*/
 
+//About Page
 import Portrait from './assets/Portrait.jpg';
 
 export default function About() {
     return (
         <>
             <div>
+                {/* About me message */}
                 <section id = "about">
                     <h2>About Me</h2>
                     <h1>Saul Ramirez Barragan</h1>
+                    {/* My portrait */}
                     <div class = "portrait">
                         <img src={Portrait} width="315" height="465" alt="" />
                     </div>
-                    <a href="https://github.com/SaulRamirezBarragan/Portfolio-SaulRamirez/blob/main/client/src/assets/Saul_Resume.pdf">My Resume</a>
+                    {/* Link to my resume */}
+                    <a href="https://github.com/SaulRamirezBarragan/Portfolio-SaulRamirez/blob/main/client/src/assets/Saul%20Resume.pdf" target="_blank">My Resume</a>
                     <p>
                         I currently study Software Engineering Technician at Centennial College. 
                         I have educational experience in robotics, neural networks, Internet of Things (IoT), 

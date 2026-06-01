@@ -98,12 +98,15 @@ p {
 #mission,#welcome,#about{
   margin-top: 30px;
 }
+#about p{
+  margin-top: 20px;
+}
 .logo{
   margin-top: 10px;
 }
 .portrait{
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 code,
