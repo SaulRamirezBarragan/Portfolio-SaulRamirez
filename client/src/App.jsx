@@ -6,7 +6,7 @@ import Logo from './assets/Logo-Saul.png';
 const App = () => {
   return (
     <>
-    <div>
+    <div class = "logo">
       <img src={Logo} width="75" height="75" alt="" />
     </div>
     <Router>

@@ -93,6 +93,13 @@ h2 {
 }
 p {
   margin: 0;
+  font-size: 18px;
+}
+#mission,#welcome{
+  margin-top: 30px;
+}
+.logo{
+  margin-top: 10px;
 }
 
 code,
