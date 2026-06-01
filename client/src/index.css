@@ -67,7 +67,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--heading);
   font-weight: 500;
   color: var(--text-h);
@@ -95,8 +96,50 @@ p {
   margin: 0;
   font-size: 18px;
 }
-#mission,#welcome,#about{
+#mission,#welcome,#about, #education{
   margin-top: 30px;
+}
+/* education class configuration*/
+#education{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#education table{
+  width: 100%;
+}
+#education p, #education .education-school{
+  text-align: left;
+  margin-top: 0;
+}
+.mt-0{
+  margin-top: 0;
+}
+#education p{
+  margin-bottom: 45px;
+}
+/* education subtitle and text class configuration */
+.education-subtitle{
+  display: flex;
+}
+.education-text{
+  width: 50%;
+}
+.education-subtitle .education-text h2, .education-subtitle .education-text h3{
+  text-align: left;
+  width: 100%;
+}
+/* education date class configuration */
+.education-date{
+  text-align: right;
+  width: 50%;
+}
+.education-date h2, .education-date h3{
+  width: 100%;
+  text-align: right;
+}
+.education-courses{
+  text-align: left;
+  margin-bottom: 60px;
 }
 #about p{
   margin-top: 20px;
