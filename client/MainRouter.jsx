@@ -6,6 +6,7 @@ import Contact from './src/contact'
 import Education from './src/education'
 import Project from './src/project'
 import Counter from './src/counter'
+import Services from './src/services'
 import Layout from './components/Layout'
 
 const MainRouter = () => {
@@ -17,7 +18,7 @@ const MainRouter = () => {
             <Route exact path="/education" element={<Education />} />
             <Route exact path="/project" element={<Project />} />
             <Route exact path="/contact" element={<Contact />} />
-            <Route exact path="/counter" element={<Counter />} />
+            <Route exact path="/services" element={<Services />} />
         </Routes>
     </div>
     )

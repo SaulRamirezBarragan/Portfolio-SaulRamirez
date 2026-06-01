@@ -68,7 +68,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading);
   font-weight: 500;
   color: var(--text-h);
@@ -96,7 +97,7 @@ p {
   margin: 0;
   font-size: 18px;
 }
-#mission,#welcome,#about, #education, #contact{
+#mission,#welcome,#about, #education, #contact, #services{
   margin-top: 30px;
 }
 
@@ -143,15 +144,29 @@ p {
   margin-bottom: 60px;
 }
 
+/* about configuration*/
 #about p{
   margin-top: 20px;
 }
+
 .logo{
   margin-top: 10px;
 }
+
 .portrait{
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+/* Service list configuration*/
+.service-list{
+  /* Flex wrap format */
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.service-list div{
+  width: 50%;
 }
 
 /* Panel configuration */
