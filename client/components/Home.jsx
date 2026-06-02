@@ -5,24 +5,9 @@ Date: June 02
 Week2 Lab1
 */
 //Home Page
+import { Link } from 'react-router-dom';
 
 export default function Home() {
-    
-    const redirect = () => {
-        window.location.href = "/about";
-    }
-    const redirect2 = () => {
-        window.location.href = "/education";
-    }
-    const redirect3 = () => {
-        window.location.href = "/project";
-    }
-    const redirect4 = () => {
-        window.location.href = "/services";
-    }
-    const redirect5 = () => {
-        window.location.href = "/contact";
-    }
     
     return (
             <>
@@ -44,11 +29,21 @@ export default function Home() {
                     </p>
                 </div>
                 <div class = "home-buttons">
-                    <button onClick={redirect}>About Me</button>
-                    <button onClick={redirect2}>Education</button>
-                    <button onClick={redirect3}>Projects</button>
-                    <button onClick={redirect4}>Services</button>
-                    <button onClick={redirect5}>Contact Me</button>
+                    <Link to="/about">
+                        <button>About Me</button>
+                    </Link>
+                    <Link to="/education">
+                        <button>Education</button>
+                    </Link>
+                    <Link to="/project">
+                        <button>Projects</button>
+                    </Link>
+                    <Link to="/services">
+                        <button>Services</button>
+                    </Link>
+                    <Link to="/contact">
+                        <button>Contact Me</button>
+                    </Link>
                 </div>
             </section>
             </>

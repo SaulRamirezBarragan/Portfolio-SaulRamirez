@@ -117,14 +117,11 @@ div{
   margin-top: 30px;
 }
 
-/*welcome class configuration*/
-.welcome{
+/*welcome and mission class configuration*/
+.welcome, .mission{
   margin-bottom: 80px;
-}
-
-/*mission class configuration*/
-.mission{
-  margin-bottom: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /*home-buttons class configuration*/
