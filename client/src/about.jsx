@@ -13,8 +13,8 @@ export default function About() {
         <>
             {/* About me message */}
             <section id = "about">
-                <h2>About Me</h2>
-                <h1>Saul Ramirez Barragan</h1>
+                <h1>About Me</h1>
+                <h2>Saul Ramirez Barragan</h2>
                 {/* My portrait */}
                 <div class = "portrait">
                     <img src={Portrait} width="315" height="465" alt="" />
