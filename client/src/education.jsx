@@ -26,9 +26,13 @@ export default function Education() {
                         <h2>May 2026 – Present</h2>
                     </div>
                 </div>
-                <h3 class = "education-school">Centennial College, Toronto, ON, Canada </h3>
+                <div class ="education-subtitle mt-0">
+                    <div class = "education-text">
+                        <h3 class = "mt-0">Centennial College, Toronto, ON, Canada  </h3>
+                    </div>
+                </div>
                 <div class = "education-courses">
-                    Relevant Courses:
+                    <span className="bold">Relevant Courses:</span>
                     {/* Table with relevant courses */}
                     <table>
                         <tr>
@@ -63,7 +67,7 @@ export default function Education() {
                     </div>
                 </div>
                 <div class = "education-courses">
-                    Relevant Courses:
+                    <span className="bold">Relevant Courses:</span>
                     {/* Table with relevant courses */}
                     <table>
                         <tr>
@@ -101,7 +105,7 @@ export default function Education() {
                     </div>
                 </div>
                 <div class = "education-courses">
-                    Concentration: Cyber-Physical Systems
+                    <span className="bold">Concentration:</span> Cyber-Physical Systems
                 </div>
 
             </section>
