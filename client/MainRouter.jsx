@@ -1,3 +1,9 @@
+/* 
+author: Saul Ramirez Barragan
+course: COMP229 - Web Application Development
+Date: June 02
+Week2 Lab1
+*/
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'

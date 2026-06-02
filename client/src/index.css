@@ -1,3 +1,10 @@
+/* 
+author: Saul Ramirez Barragan
+course: COMP229 - Web Application Development
+Date: June 02
+Week2 Lab1
+*/
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -110,20 +117,24 @@ div{
   margin-top: 30px;
 }
 
+/*welcome class configuration*/
 .welcome{
   margin-bottom: 80px;
 }
 
+/*mission class configuration*/
 .mission{
   margin-bottom: 80px;
 }
 
+/*home-buttons class configuration*/
 .home-buttons{
   display: flex;
   gap: 10px;
   justify-content: center;
 }
 
+/*project ID configuration*/
 #project{
   padding-left: 10px;
   padding-right: 10px;
@@ -176,6 +187,8 @@ div{
   margin-top: 0;
   margin-bottom: 45px;
 }
+
+/*No margin-top class*/
 .mt-0{
   margin-top: 0;
 }
@@ -191,7 +204,8 @@ div{
   text-align: left;
   width: 100%;
 }
-/* education date class configuration */
+
+/* education-date class configuration */
 .education-date{
   text-align: right;
   width: 50%;
@@ -200,20 +214,24 @@ div{
   width: 100%;
   text-align: right;
 }
+
+/* education-courses class configuration */
 .education-courses{
   text-align: left;
   margin-bottom: 60px;
 }
 
-/* about configuration*/
+/* about ID configuration*/
 #about p{
   margin-top: 20px;
 }
 
+/*logo class configuration*/
 .logo{
   margin-top: 10px;
 }
 
+/*portrait class configuration*/
 .portrait{
   margin-top: 20px;
   margin-bottom: 10px;
